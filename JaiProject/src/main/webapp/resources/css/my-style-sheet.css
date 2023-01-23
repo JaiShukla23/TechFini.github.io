@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body{
+	display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height:100vh;
+    /* background: url('https://wallpaperaccess.com/full/3579987.jpg'); */
+    /* background: linear-gradient(45deg, #b4b4ff, #ffb5b5 50%, yellow); */
+    background: linear-gradient(0deg, #00000057, #ff8000a3),
+                url('https://wallpaperaccess.com/full/3579987.jpg');
+    background-size: cover;
+}
+.card{
+    /* border: 1px solid red; */
+    display:table;
+    /* align-content:"centre"; */
+    padding: 20px;
+    box-sizing: border-box;
+    /* box-shadow : x-offset y-offset blur size color */
+    /* text-shadow : x-offset y-offset blur color */
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.308), -1px -1px 3px 2px rgba(0, 0, 0, 0.119);
+    border-radius: 5px;
+    background: white;
+}
+h1{
+	color:#ff004d;
+}
+.text{
+	width:100%;
+	color:brown;
+	border:dotted;
+	border-radius: 7px;
+	background-color: #ffffbd;
+}
+
+.Add:hover{
+	box-shadow: none;
+    transition: 0.2s;
+    background-color: #1affff;
+    cursor: pointer;
+    border-radius: 30px;
+	
+}
+
+.card1{
+    /* border: 1px solid red; */
+    display:table;
+    /* align-content:"centre"; */
+    padding: 20px;
+    width:100%;
+    height:30%;
+    box-sizing: border-box;
+    /* box-shadow : x-offset y-offset blur size color */
+    /* text-shadow : x-offset y-offset blur color */
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.308), -1px -1px 3px 2px rgba(0, 0, 0, 0.119);
+    border-radius: 5px;
+    background: #5694cb;
+}
+.mybtn:hover{
+	background-color:pink;
+	box-shadow: none;
+    transition: 1s;
+    cursor: pointer;
+}

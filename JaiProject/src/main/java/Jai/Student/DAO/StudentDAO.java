@@ -1,0 +1,18 @@
+package Jai.Student.DAO;
+
+import java.util.List;
+
+import Jai.Student.api.Student;
+
+public interface StudentDAO {
+	
+	List<Student> loadStudents();
+	
+	void saveStudent(Student student);
+	Student getStudent (int id);
+
+	void update(Student student);
+
+	void deleteStudent(int id);
+
+}
